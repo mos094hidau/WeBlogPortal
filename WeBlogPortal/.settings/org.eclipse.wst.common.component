@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="WeBlogPortal">
+        <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+        <wb-resource deploy-path="/" source-path="/WebContent/Img"/>
+        <wb-resource deploy-path="/" source-path="/WebContent/css"/>
+        <wb-resource deploy-path="/" source-path="/WebContent/javascript"/>
+        <property name="context-root" value="WeBlogPortal"/>
+        <property name="java-output-path" value="/WeBlogPortal/build/classes"/>
+    </wb-module>
+</project-modules>

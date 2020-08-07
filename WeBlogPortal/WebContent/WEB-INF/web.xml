@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<element>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  <display-name>WeBlogPortal</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+  		<servlet-name>registerServlet</servlet-name>
+  		<servlet-class>registerServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  		<servlet-name>registerServlet</servlet-name>
+  		<url-pattern>/registerServlet</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+  		<servlet-name>loginServlet</servlet-name>
+  		<servlet-class>loginServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  		<servlet-name>loginServlet</servlet-name>
+  		<url-pattern>/loginServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  		<servlet-name>logoutServlet</servlet-name>
+  		<servlet-class>logoutServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  		<servlet-name>logoutServlet</servlet-name>
+  		<url-pattern>/logoutServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  		<servlet-name>ProfileServlet</servlet-name>
+  		<servlet-class>ProfileServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  		<servlet-name>ProfileServlet</servlet-name>
+  		<url-pattern>/ProfileServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  		<servlet-name>editDetails</servlet-name>
+  		<servlet-class>editDetails</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  		<servlet-name>editDetails</servlet-name>
+  		<url-pattern>editDetails</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  		<servlet-name>ForgetLoginDetails</servlet-name>
+  		<servlet-class>ForgetLoginDetails</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  		<servlet-name>ForgetLoginDetails</servlet-name>
+  		<url-pattern>/ForgetLoginDetails</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  		<servlet-name>ChangePassword</servlet-name>
+  		<servlet-class>ChangePassword</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  		<servlet-name>ChangePassword</servlet-name>
+  		<url-pattern>/ChangePassword</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  		<servlet-name>DeleteAccount</servlet-name>
+  		<servlet-class>DeleteAccount</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  		<servlet-name>DeleteAccount</servlet-name>
+  		<url-pattern>/DeleteAccount</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  		<servlet-name>ProfileUpload</servlet-name>
+  		<servlet-class>ProfileUpload</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  		<servlet-name>ProfileUpload</servlet-name>
+  		<url-pattern>/ProfileUpload</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  		<servlet-name>RemoveProfilePic</servlet-name>
+  		<servlet-class>RemoveProfilePic</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  		<servlet-name>RemoveProfilePic</servlet-name>
+  		<url-pattern>/RemoveProfilePic</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  		<servlet-name>showDetails</servlet-name>
+  		<servlet-class>showDetails</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  		<servlet-name>showDetails</servlet-name>
+  		<url-pattern>/showDetails</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+  		<servlet-name>CreateBlog</servlet-name>
+  		<servlet-class>CreateBlog</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  		<servlet-name>CreateBlog</servlet-name>
+  		<url-pattern>/CreateBlog</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+  		<servlet-name>DisplayBlogImage</servlet-name>
+  		<servlet-class>DisplayBlogImage</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  		<servlet-name>DisplayBlogImage</servlet-name>
+  		<url-pattern>/DisplayBlogImage</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+  		<servlet-name>ForgetLoginDetails</servlet-name>
+  		<servlet-class>ForgetLoginDetails</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  		<servlet-name>ForgetLoginDetails</servlet-name>
+  		<url-pattern>/ForgetLoginDetails</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  		<servlet-name>FollowServlet</servlet-name>
+  		<servlet-class>FollowServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  		<servlet-name>FollowServlet</servlet-name>
+  		<url-pattern>/FollowServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  		<servlet-name>UnfollowServlet</servlet-name>
+  		<servlet-class>UnfollowServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  		<servlet-name>UnfollowServlet</servlet-name>
+  		<url-pattern>/UnfollowServlet</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+  		<servlet-name>MailServlet</servlet-name>
+  		<servlet-class>MailServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  		<servlet-name>MailServlet</servlet-name>
+  		<url-pattern>/MailServlet</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+  		<servlet-name>OtpServlet</servlet-name>
+  		<servlet-class>OtpServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  		<servlet-name>OtpServlet</servlet-name>
+  		<url-pattern>/OtpServlet</url-pattern>
+  </servlet-mapping>
+</web-app>
+</element>
